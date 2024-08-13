@@ -2,7 +2,7 @@
 
 const url = window.location.hostname.includes("localhost")
             ? "http://localhost:8080/api/auth/"
-            : "https://restserver-node-fefca7921dc0.herokuapp.com//api/auth/";
+            : "https://chats-jm-ed9fb87af691.herokuapp.com///api/auth/";
 
 let usuario = null;
 let socket  = null;
